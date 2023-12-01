@@ -9,7 +9,7 @@ const generateTarget = (secret) => {
    return secret
 };
 
-console.log(generateTarget());
+//console.log(generateTarget());
 
 const compareGuesses = (humanGuess, computerGuess, secret) => {
   
@@ -24,7 +24,7 @@ const compareGuesses = (humanGuess, computerGuess, secret) => {
 
 };
 
-console.log(compareGuesses());
+//console.log(compareGuesses());
 
 const updateScore = winner => {
   
@@ -35,7 +35,7 @@ const updateScore = winner => {
   }
 };
 
-console.log(updateScore());
+//console.log(updateScore());
 
 
 const advanceRound = () => {
@@ -43,6 +43,3 @@ const advanceRound = () => {
 }
 
 //console.log(advanceRound());
-
-
-//console.log(generateTarget());
